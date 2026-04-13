@@ -76,7 +76,3 @@ Also a national mountain biking champion (2021) and Asian-level cross-country mo
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GSAPify&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
-
-<p align="center">
-  <i>"Sab Automate Kar Dunga"</i> ⚡
-</p>
