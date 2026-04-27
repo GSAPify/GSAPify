@@ -70,8 +70,9 @@ Also a national mountain biking champion (2021) and Asian-level cross-country mo
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GSAPify&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=GSAPify&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GSAPify&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
