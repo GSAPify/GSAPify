@@ -64,3 +64,7 @@ Also a national mountain biking champion (2021) and Asian-level cross-country mo
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akhilshreds1010@gmail.com)
 
 ---
+<a href="https://github.com">
+  <img src="https://demolab.com" alt="GASPIfy GitHub Streak" />
+</a>
+
