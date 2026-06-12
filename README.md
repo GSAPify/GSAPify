@@ -10,22 +10,25 @@ Currently leading AI automation engineering for ecommerce operations at [Pattern
 
 ### What I build
 
-🔊 **[Mach](https://github.com/GSAPify/bird_mach)** — An enterprise-grade audio intelligence platform with real-time WebSocket streaming, audio fingerprinting (Chromaprint + constellation matching), a plugin-based DSP effects chain, spectral/harmonic analysis with UMAP visualization, and a full RESTful API. 3,000+ commits and counting.
+🔊 **[Mach](https://github.com/GSAPify/bird_mach)**: An enterprise-grade audio intelligence platform with real-time WebSocket streaming, audio fingerprinting (Chromaprint + constellation matching), a plugin-based DSP effects chain, spectral/harmonic analysis with UMAP visualization, and a full RESTful API. 3,000+ commits and counting.
 
-🤖 **[IsacxAkhil](https://github.com/GSAPify/IsacxAkhil)** — Robotics and perception systems exploration. Python + Rust + Isaac Sim. Building toward control-aware ML systems and simulation-driven development.
+📈 **[OHLCV Validator](https://github.com/GSAPify/ohlcv-validator)**: A low-latency C++20 validator for live OHLCV market data feeds. Zero heap allocations on the hot path, ~6 ns per record, ~167M records/sec on a single core, with a lock-free SPSC pipeline and rdtscp-measured latency tails (p50 20 ns / p99 30 ns on x86). Every correctness claim is backed by a test, every performance claim by a reproducible benchmark.
 
-📊 **[Sentiment Analysis](https://github.com/GSAPify/Sentiment-Analysis-)** — Reddit sentiment pipeline using PRAW and TextBlob for real-time opinion mining.
+🤖 **[IsacxAkhil](https://github.com/GSAPify/IsacxAkhil)**: Robotics and perception systems exploration. Python + Rust + Isaac Sim. Building toward control-aware ML systems and simulation-driven development.
 
-🌸 **[Iris Classification](https://github.com/GSAPify/Iris-Flower-Classification-Using-Machine-Learning-Python---Sickit-)** — Classical ML classification with Scikit-learn. Clean, well-structured, and a solid reference implementation.
+📊 **[Sentiment Analysis](https://github.com/GSAPify/Sentiment-Analysis-)**: Reddit sentiment pipeline using PRAW and TextBlob for real-time opinion mining.
 
-**Most of my production work lives in private repos** — compliance screening platforms, RAG architectures, marketplace automation pipelines, and infrastructure-as-code across AWS, Snowflake, and Terraform. Happy to walk through architectures in conversation.
+🌸 **[Iris Classification](https://github.com/GSAPify/Iris-Flower-Classification-Using-Machine-Learning-Python---Sickit-)**: Classical ML classification with Scikit-learn. Clean, well-structured, and a solid reference implementation.
+
+**Most of my production work lives in private repos**: compliance screening platforms, RAG architectures, marketplace automation pipelines, and infrastructure-as-code across AWS, Snowflake, and Terraform. Happy to walk through architectures in conversation.
 
 ---
 
 ### Tech I work with
 
 ```
-Languages        Python, SQL, Rust (learning), JavaScript/TypeScript
+Languages        Python, SQL, C++20, Rust (learning), JavaScript/TypeScript
+Systems          Lock-free SPSC queues, cache-aware design, mmap I/O, zero-alloc hot paths
 ML/AI            PyTorch, Scikit-learn, LangChain, Vertex AI, OpenAI APIs, RAG pipelines
 Backend          FastAPI, Node.js
 Infrastructure   AWS (ECS, Lambda, Cognito, Textract, S3), Terraform, Docker
@@ -40,8 +43,9 @@ Tools            Git, Datadog, Claude Code, Linux
 
 ### What I'm into right now
 
+- Chasing nanoseconds in **modern C++**: lock-free queues, cache-aware layouts, honest benchmarks
 - Deep in **Rust** because systems-level thinking makes you a better engineer 🦀
-- Exploring **robotics** — perception, control-aware ML, simulation-driven development
+- Exploring **robotics**: perception, control-aware ML, simulation-driven development
 - Reading foundational ML papers (currently working through Kalman filtering literature)
 - Building **Graph-Agentic RAG** architectures with Postgres + Apache AGE + pgvector
 - Recently gave an **n8n hands-on workshop** at Pattern's first AI Collective Meetup
@@ -65,12 +69,14 @@ Also a national mountain biking champion (2021) and Asian-level cross-country mo
 
 ---
 
+### Stats & streak
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=GSAPify&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GSAPify&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=GSAPify&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
