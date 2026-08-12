@@ -1,74 +1,46 @@
-# Hey, I'm Akhil 👋
+# Akhil Singh
 
-**AI Engineering Lead @ Pattern | Applied ML Systems | Automation & Decision Intelligence**
+AI Engineering Lead at [Pattern](https://www.pattern.com). Pune.
 
-I build production-grade AI systems that run in high-volume, compliance-critical environments. Not demos. Not notebooks. Systems that handle real traffic, real failures, and real constraints.
+I work on AI automation and infrastructure for ecommerce operations: compliance screening platforms, RAG architectures, marketplace automation pipelines, and the AWS, Snowflake, and Terraform infrastructure underneath them. Most of it lives in private repos. Happy to walk through any of the architecture.
 
-Currently leading AI automation engineering for ecommerce operations at [Pattern](https://www.pattern.com), where I design automation platforms, integrate AI services into operational workflows, and build systems that scale across global marketplaces.
+## Public
 
----
+**[ohlcv-validator](https://github.com/GSAPify/ohlcv-validator)** · C++20
 
-### What I build
+Low-latency validator, feed handler, and L2 order book for live market data. Zero heap allocations on the hot path, ~6 ns per record, ~167M records/sec on a single core. Lock-free SPSC pipeline, A/B multicast feed handler, snapshot recovery. Latency tails measured with rdtscp: p50 20 ns, p99 30 ns on x86. Every correctness claim has a test, every performance claim has a reproducible benchmark.
 
-🔊 **[Mach](https://github.com/GSAPify/bird_mach)**: An enterprise-grade audio intelligence platform with real-time WebSocket streaming, audio fingerprinting (Chromaprint + constellation matching), a plugin-based DSP effects chain, spectral/harmonic analysis with UMAP visualization, and a full RESTful API. 3,000+ commits and counting.
+**[bird_mach](https://github.com/GSAPify/bird_mach)** · Python
 
-📈 **[OHLCV Validator](https://github.com/GSAPify/ohlcv-validator)**: A low-latency C++20 validator for live OHLCV market data feeds. Zero heap allocations on the hot path, ~6 ns per record, ~167M records/sec on a single core, with a lock-free SPSC pipeline and rdtscp-measured latency tails (p50 20 ns / p99 30 ns on x86). Every correctness claim is backed by a test, every performance claim by a reproducible benchmark.
+Audio intelligence platform. Real-time WebSocket streaming, fingerprinting with Chromaprint and constellation matching, plugin-based DSP effects chain, spectral and harmonic analysis with UMAP.
 
-🤖 **[IsacxAkhil](https://github.com/GSAPify/IsacxAkhil)**: Robotics and perception systems exploration. Python + Rust + Isaac Sim. Building toward control-aware ML systems and simulation-driven development.
+**[IsacxAkhil](https://github.com/GSAPify/IsacxAkhil)** · Python, Rust
 
-📊 **[Sentiment Analysis](https://github.com/GSAPify/Sentiment-Analysis-)**: Reddit sentiment pipeline using PRAW and TextBlob for real-time opinion mining.
+Robotics perception in Isaac Sim. Keypoint-based 6-DoF tracking and pose estimation, working toward control-aware ML and simulation-driven development.
 
-🌸 **[Iris Classification](https://github.com/GSAPify/Iris-Flower-Classification-Using-Machine-Learning-Python---Sickit-)**: Classical ML classification with Scikit-learn. Clean, well-structured, and a solid reference implementation.
-
-**Most of my production work lives in private repos**: compliance screening platforms, RAG architectures, marketplace automation pipelines, and infrastructure-as-code across AWS, Snowflake, and Terraform. Happy to walk through architectures in conversation.
-
----
-
-### Tech I work with
+## Stack
 
 ```
-Languages        Python, SQL, C++20, Rust (learning), JavaScript/TypeScript
-Systems          Lock-free SPSC queues, cache-aware design, mmap I/O, zero-alloc hot paths
-ML/AI            PyTorch, Scikit-learn, LangChain, Vertex AI, OpenAI APIs, RAG pipelines
-Backend          FastAPI, Node.js
-Infrastructure   AWS (ECS, Lambda, Cognito, Textract, S3), Terraform, Docker
-Data             Snowflake, PostgreSQL, Apache AGE, pgvector
-Automation       n8n, workflow orchestration, webhook architectures
-Audio/DSP        Chromaprint, spectral analysis, WebSocket streaming
-Robotics         Isaac Sim, perception stacks, control systems
-Tools            Git, Datadog, Claude Code, Linux
+Languages     Python, C++20, SQL, TypeScript, Rust (learning)
+Systems       Lock-free SPSC queues, cache-aware layout, mmap I/O, zero-alloc hot paths
+ML            PyTorch, LangChain, RAG pipelines, pgvector, Apache AGE
+Backend       FastAPI, Node.js
+Infra         AWS (ECS, Lambda, Textract, Cognito), Terraform, Snowflake, Postgres
+Automation    n8n, workflow orchestration
 ```
 
----
+## Now
 
-### What I'm into right now
-
-- Chasing nanoseconds in **modern C++**: lock-free queues, cache-aware layouts, honest benchmarks
-- Deep in **Rust** because systems-level thinking makes you a better engineer 🦀
-- Exploring **robotics**: perception, control-aware ML, simulation-driven development
-- Reading foundational ML papers (currently working through Kalman filtering literature)
-- Building **Graph-Agentic RAG** architectures with Postgres + Apache AGE + pgvector
-- Recently gave an **n8n hands-on workshop** at Pattern's first AI Collective Meetup
+- EDITH, a local-first voice assistant. Wake-word daemon, mic preflight, tool routing
+- Lock-free structures and cache-aware layouts in modern C++
+- Graph-agentic RAG on Postgres with Apache AGE and pgvector
+- Kalman filtering literature
+- Rust
 
 ---
 
-### How I think about engineering
+National cross-country mountain biking champion, 2021.
 
-I care about **systems that work**, not systems that demo well. Every project I take on, I think about failure modes first, latency second, and accuracy third. If you can't explain the failure path, you don't understand the system.
+[LinkedIn](https://www.linkedin.com/in/akhil-singh-/) · [akhilshreds1010@gmail.com](mailto:akhilshreds1010@gmail.com)
 
-I prefer hands-on technical work, system design, and deep problem-solving over slide decks and standups.
-
-Also a national mountain biking champion (2021) and Asian-level cross-country mountain biker. So yeah, I like going uphill.
-
----
-
-### Let's connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akhil-singh-/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akhilshreds1010@gmail.com)
-
----
-<a href="https://github.com">
-  <img src="https://demolab.com" alt="GASPIfy GitHub Streak" />
-</a>
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=GSAPify&theme=dark&hide_border=true&background=0D1117&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF)](https://github.com/GSAPify)
